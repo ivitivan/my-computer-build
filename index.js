@@ -15,13 +15,13 @@ const parts = [
   {
     type: 'cpu',
     name: 'Intel i7-6700K',
-    price: 25710
+    price: 25710,
+    bought: true
   },
   {
     type: 'graphics',
-    name: 'Sapphire Radeon R9 390X',
-    price: 49190,
-    skip: true
+    name: 'Radeon RX480',
+    bought: true
   },
   {
     type: 'power',
@@ -48,22 +48,30 @@ const parts = [
     bought: true
   },
   {
+    type: 'ssd',
+    name: 'Samsung EVO 850 500gb',
+    bought: true,
+  },
+  {
+    type: 'ssd',
+    name: 'Samsung EVO 850 500gb',
+    bought: true,
+  },
+  {
     type: 'monitor',
-    name: 'ASUS MG279Q',
-    price: 52705,
-    skip: true
+    name: 'DELL 2516D',
+    bought: true,
   },
   {
     type: 'case',
-    name: '',
-    price: 7800,
-    skip: true
+    name: 'NZXT S340',
+    bought: true,
   },
   {
     type: 'cooler',
     name: 'Noctua NH-U12S',
     price: 5108,
-    bought: true
+    bought: true,
   }
 ]
 
